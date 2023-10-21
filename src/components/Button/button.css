@@ -1,0 +1,40 @@
+.btn{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid rgb(0, 30, 51);
+    outline: none;
+    background-color: rgb(0, 43, 74);
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(11, 28, 36);
+}
+
+.equal{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid rgb(0, 30, 51);
+    outline: none;
+    background-color: rgb(0, 43, 74);
+    color: white;
+    grid-row: span 2;
+    border-radius: 0px 0px 20px 0px;
+}
+.equal:hover{
+    background-color: rgb(11, 28, 36);
+}
+
+.zero{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid rgb(0, 30, 51);
+    outline: none;
+    background-color: rgb(0, 43, 74);
+    color: white;
+    grid-column: span 2;
+    border-radius: 0px 0px 0px 20px;
+}
+.zero:hover{
+    background-color: rgb(11, 28, 36);
+}
